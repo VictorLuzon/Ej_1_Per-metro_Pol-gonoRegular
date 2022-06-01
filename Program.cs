@@ -20,7 +20,7 @@ namespace Ej_1
 
             //Pide al usuario la medida de uno de los lados.
             Console.WriteLine("Escribe la medida en cm de uno de los lados del supuesto polígono regular:");
-            double medida = Int32.Parse(Console.ReadLine());
+            double medida = Double.Parse(Console.ReadLine());
 
             //El programa realiza la operación y muestra el resultado.
             double perimetro = medida * lados;
